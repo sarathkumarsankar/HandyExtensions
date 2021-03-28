@@ -7,11 +7,13 @@
 //
 
 import UIKit
-
+import HandyExtensions
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        var sss = "assf".isWordCountMoreThan8
+        print(sss)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
